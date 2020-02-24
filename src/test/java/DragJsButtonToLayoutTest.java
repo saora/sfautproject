@@ -4,9 +4,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
+import pages.PageLayoutPage;
+import pages.SalesforceHomePage;
 import pages.SalesforceLoginPage;
 
-public class SalesforceLoginTest {
+public class DragJsButtonToLayoutTest {
     WebDriver driver;
 
     @Before
@@ -17,14 +19,27 @@ public class SalesforceLoginTest {
 
     @After
     public void tearDown(){
-        driver.quit();
+
     }
 
     @Test
-    public void loginTest(){
+    public void loginTest()throws Exception{
         SalesforceLoginPage slogin = new SalesforceLoginPage(driver);
         slogin.typeUsername("glbltest.salesforce@gmail.com");
         slogin.typePassword("test12345");
         slogin.clickLogin();
+
+        SalesforceHomePage shome = new SalesforceHomePage(driver);
+        shome.switchToClassic();
+        shome.clickOnCustomizeIcon();
+        shome.selCustomizeOption("Campaigns");
+        shome.selectObjectOption("Campaign","Page Layouts");
+
+        PageLayoutPage custLayout = new PageLayoutPage(driver);
+        custLayout.editLayout("prueba");
+        custLayout.dragAndDropButton("test2");
+
+
+
     }
 }

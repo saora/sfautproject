@@ -1,14 +1,13 @@
 package pages;
 
 import com.Base;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class NewCustomFieldPage extends Base {
+public class CustomFieldPage extends Base {
 
     @FindBy(name = "new_field")
     private WebElement clickOnNew;
@@ -16,14 +15,28 @@ public class NewCustomFieldPage extends Base {
     @FindBy(xpath = "//*[@name='dtype']")
     private List<WebElement> dataType;
 
-
     @FindBy(xpath = "//*[@id='ep']/div/div/table/tbody/tr/td[1]/label")
     private List<WebElement> getDataType;
 
     @FindBy(id = "")
     private WebElement tdElement;
 
-    public NewCustomFieldPage(WebDriver driver){
+    @FindBy(name = "goNext")
+    private WebElement goNext;
+
+    @FindBy(id = "MasterLabel")
+    private WebElement fieldLabel;
+
+    @FindBy(id = "Length")
+    private WebElement lenght;
+
+    @FindBy(name = "save")
+    private WebElement saveField;
+
+
+
+
+    public CustomFieldPage(WebDriver driver){
         super(driver);
     }
 
@@ -39,5 +52,21 @@ public class NewCustomFieldPage extends Base {
                 break;
             }
         }
+    }
+
+    public void clickOnNext(){
+        clickOnElement(goNext);
+    }
+
+    public void clickOnSave(){
+        clickOnElement(saveField);
+    }
+
+    public void typeFieldLabel(String txtLabel){
+        typeTextOnElement(fieldLabel, txtLabel);
+    }
+
+    public void typeLenght(String lenghtLabel){
+        typeTextOnElement(lenght, lenghtLabel);
     }
 }

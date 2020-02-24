@@ -28,6 +28,7 @@ public class Base {
     }
 
     public void typeTextOnElement(WebElement element, String textOnElement){
+        element.clear();
         element.sendKeys(textOnElement);
     }
 

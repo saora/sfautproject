@@ -4,11 +4,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import pages.CustomFieldPage;
+import pages.JsButtonOrLinkPage;
 import pages.SalesforceHomePage;
 import pages.SalesforceLoginPage;
 
-public class NewCustonFieldTest {
+public class NewButtonOrLinkTest {
     WebDriver driver;
 
     @Before
@@ -33,20 +33,16 @@ public class NewCustonFieldTest {
         shome.switchToClassic();
         shome.clickOnCustomizeIcon();
         shome.selCustomizeOption("Campaigns");
-        shome.selectObjectOption("Campaign","Fields");
+        shome.selectObjectOption("Campaign","Buttons, Links, and Actions");
+        shome.clickOnNewJsButton();
 
-        CustomFieldPage field = new CustomFieldPage(driver);
-        field.clickOnNewField();
-        field.selectDataType("Text");
-        field.clickOnNext();
-
-        field.typeFieldLabel("fieldTest");
-        field.typeLenght("10");
-        field.clickOnNext();
-        field.clickOnNext();
-        field.clickOnSave();
-
-
+        JsButtonOrLinkPage jsbtn = new JsButtonOrLinkPage(driver);
+        jsbtn.typeLabel("test3");
+        jsbtn.typeDescription("Description test");
+        jsbtn.selectDisplayType("Detail Page Button");
+        jsbtn.selectBehavior("Execute JavaScript");
+        jsbtn.typeContentEditor("test content editor");
+        jsbtn.saveJavaScriptButton();
 
     }
 }

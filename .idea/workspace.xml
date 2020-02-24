@@ -2,45 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="478c9259-1fba-4459-a38f-c88efa404e61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/java/abstracta/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/java/abstracta/Ave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/java/abstracta/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/java/abstracta/Perro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/java/estructuras/Balance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/java/estructuras/Candidatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/java/estructuras/Interseccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/java/herencia/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/java/herencia/Ventana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/java/herencia/VentanaTitulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/java/poo/Automovil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/java/poo/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/java/poo/Empleados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/java/poo/Pruebas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/java/poo/Uso_Automovil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/main/resources/webdriver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/test/java/pootest/com/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/test/java/pootest/com/PageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/test/java/pootest/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOBASICTASK/src/test/java/pootest/tests/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SELENIUMWEBTEST/src/main/resources/webdriver/windows/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SELENIUMWEBTEST/src/main/resources/webdriver/windows/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SELENIUMWEBTEST/src/test/java/pages/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SELENIUMWEBTEST/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SELENIUMWEBTEST/src/test/java/tests/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/DriverType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NewButtonOrLinkPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NewCustomFieldPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NewPageLayoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SalesforceHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SalesforceLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/webdriver/widows/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/webdriver/widows/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NewCustonFieldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NewPageLayoutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SalesforceLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sf-Automationtees" beforeDir="false" afterPath="$PROJECT_DIR$/../sf-Automationtees" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DragJsButtonToLayoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NewButtonOrLinkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFLECC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/NewButtonOrLinkPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/JsButtonOrLinkPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/NewCustomFieldPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CustomFieldPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/NewPageLayoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageLayoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SalesforceHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SalesforceHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NewCustonFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NewCustonFieldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NewPageLayoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NewPageLayoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SalesforceLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SalesforceLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/NewButtonOrLinkPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/NewCustomFieldPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/NewPageLayoutPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SalesforceHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SalesforceHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NewCustonFieldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NewCustonFieldTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NewPageLayoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NewPageLayoutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SalesforceLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SalesforceLoginTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,36 +39,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/SalesforceLoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Base.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SalesforceLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="45" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="433">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/NewButtonOrLinkTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="39" column="30" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,8 +67,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/NewPageLayoutTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="12" selection-start-line="12" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="466">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/NewCustonFieldTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/CustomFieldPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1173#1174#0" expanded="true" />
+                <element signature="e#1205#1206#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#1467#1468#0" expanded="true" />
+                <element signature="e#1391#1392#0" expanded="true" />
+                <element signature="e#1446#1447#0" expanded="true" />
+                <element signature="e#1499#1500#0" expanded="true" />
+                <element signature="e#1534#1535#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/PageLayoutPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,10 +121,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NewCustonFieldTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DragJsButtonToLayoutTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="286">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,60 +133,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/NewCustomFieldPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/DriverFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="442">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/NewPageLayoutPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/JsButtonOrLinkPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+            <state relative-caret-position="534">
+              <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/NewButtonOrLinkPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
-                <element signature="e#1705#1706#0" expanded="true" />
-                <element signature="e#1754#1755#0" expanded="true" />
-                <element signature="e#1818#1819#0" expanded="true" />
-                <element signature="e#1887#1888#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -180,22 +159,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/SalesforceHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
+            <state relative-caret-position="-1176">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2511#2512#0" expanded="true" />
-                <element signature="e#2543#2544#0" expanded="true" />
+                <element signature="e#2563#2564#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -219,15 +189,18 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/BrowserSelector.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/SalesforceLoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/DriverFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/SalesforceHomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/NewButtonOrLinkPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Base.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SalesforceLoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/NewPageLayoutPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/NewPageLayoutTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/NewCustonFieldTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Base.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/NewCustomFieldPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SalesforceLoginTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/SalesforceHomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NewCustonFieldTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NewButtonOrLinkTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NewPageLayoutTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DragJsButtonToLayoutTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/PageLayoutPage.java" />
       </list>
     </option>
   </component>
@@ -238,20 +211,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-114" />
+    <option name="y" value="-1055" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -259,58 +223,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SFLECC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SFLECC" type="462c0819:PsiDirectoryNode" />
+              <item name="sfautproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sfautproject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SFLECC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SFLECC" type="462c0819:PsiDirectoryNode" />
+              <item name="sfautproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sfautproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SFLECC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SFLECC" type="462c0819:PsiDirectoryNode" />
+              <item name="sfautproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sfautproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SFLECC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SFLECC" type="462c0819:PsiDirectoryNode" />
+              <item name="sfautproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sfautproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SFLECC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SFLECC" type="462c0819:PsiDirectoryNode" />
+              <item name="sfautproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sfautproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SFLECC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SFLECC" type="462c0819:PsiDirectoryNode" />
+              <item name="sfautproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sfautproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SFLECC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SFLECC" type="462c0819:PsiDirectoryNode" />
+              <item name="sfautproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sfautproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SFLECC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SFLECC" type="462c0819:PsiDirectoryNode" />
+              <item name="sfautproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sfautproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -323,7 +287,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/webdriver/widows" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -343,12 +308,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NewCustonFieldTest">
-    <configuration name="NewCustonFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DragJsButtonToLayoutTest">
+    <configuration name="DragJsButtonToLayoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SFLECC" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NewCustonFieldTest" />
+      <option name="MAIN_CLASS_NAME" value="DragJsButtonToLayoutTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DragJsButtonToLayoutTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SFLECC" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DragJsButtonToLayoutTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -363,15 +338,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewPageLayoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SFLECC" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NewPageLayoutTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NewPageLayoutTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SFLECC" />
       <option name="PACKAGE_NAME" value="" />
@@ -382,23 +348,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalesforceLoginTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SalesforceLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SFLECC" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SalesforceLoginTest" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NewCustonFieldTest" />
-        <item itemvalue="JUnit.NewCustonFieldTest.loginTest" />
+        <item itemvalue="JUnit.DragJsButtonToLayoutTest" />
+        <item itemvalue="JUnit.DragJsButtonToLayoutTest.loginTest" />
         <item itemvalue="JUnit.NewPageLayoutTest.loginTest" />
-        <item itemvalue="JUnit.NewPageLayoutTest" />
-        <item itemvalue="JUnit.SalesforceLoginTest.loginTest" />
+        <item itemvalue="JUnit.SalesforceLoginTest" />
+        <item itemvalue="JUnit.NewCustonFieldTest.loginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -416,42 +381,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NewCustonFieldTest_loginTest - 2020.02.24 at 02h 46m 02s.xml">
-      <configuration name="NewCustonFieldTest.loginTest" configurationId="JUnit" />
+    <history-entry file="DragJsButtonToLayoutTest - 2020.02.24 at 16h 55m 54s.xml">
+      <configuration name="DragJsButtonToLayoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewCustonFieldTest_loginTest - 2020.02.24 at 02h 48m 16s.xml">
-      <configuration name="NewCustonFieldTest.loginTest" configurationId="JUnit" />
+    <history-entry file="DragJsButtonToLayoutTest - 2020.02.24 at 16h 57m 40s.xml">
+      <configuration name="DragJsButtonToLayoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewCustonFieldTest_loginTest - 2020.02.24 at 02h 52m 06s.xml">
-      <configuration name="NewCustonFieldTest.loginTest" configurationId="JUnit" />
+    <history-entry file="DragJsButtonToLayoutTest - 2020.02.24 at 16h 59m 10s.xml">
+      <configuration name="DragJsButtonToLayoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewCustonFieldTest_loginTest - 2020.02.24 at 02h 54m 04s.xml">
-      <configuration name="NewCustonFieldTest.loginTest" configurationId="JUnit" />
+    <history-entry file="DragJsButtonToLayoutTest - 2020.02.24 at 17h 02m 13s.xml">
+      <configuration name="DragJsButtonToLayoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewCustonFieldTest_loginTest - 2020.02.24 at 02h 57m 59s.xml">
-      <configuration name="NewCustonFieldTest.loginTest" configurationId="JUnit" />
+    <history-entry file="DragJsButtonToLayoutTest - 2020.02.24 at 17h 11m 54s.xml">
+      <configuration name="DragJsButtonToLayoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewCustonFieldTest_loginTest - 2020.02.24 at 03h 00m 38s.xml">
-      <configuration name="NewCustonFieldTest.loginTest" configurationId="JUnit" />
+    <history-entry file="DragJsButtonToLayoutTest - 2020.02.24 at 17h 14m 23s.xml">
+      <configuration name="DragJsButtonToLayoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewCustonFieldTest_loginTest - 2020.02.24 at 03h 01m 54s.xml">
-      <configuration name="NewCustonFieldTest.loginTest" configurationId="JUnit" />
+    <history-entry file="DragJsButtonToLayoutTest - 2020.02.24 at 17h 18m 34s.xml">
+      <configuration name="DragJsButtonToLayoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewCustonFieldTest_loginTest - 2020.02.24 at 03h 05m 12s.xml">
-      <configuration name="NewCustonFieldTest.loginTest" configurationId="JUnit" />
+    <history-entry file="DragJsButtonToLayoutTest - 2020.02.24 at 17h 22m 32s.xml">
+      <configuration name="DragJsButtonToLayoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewCustonFieldTest - 2020.02.24 at 03h 09m 31s.xml">
-      <configuration name="NewCustonFieldTest" configurationId="JUnit" />
+    <history-entry file="DragJsButtonToLayoutTest - 2020.02.24 at 17h 23m 46s.xml">
+      <configuration name="DragJsButtonToLayoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewCustonFieldTest - 2020.02.24 at 03h 11m 43s.xml">
-      <configuration name="NewCustonFieldTest" configurationId="JUnit" />
+    <history-entry file="DragJsButtonToLayoutTest - 2020.02.24 at 17h 25m 44s.xml">
+      <configuration name="DragJsButtonToLayoutTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info id="Archetypes" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -460,7 +426,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40953413" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30985916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,16 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/DriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/DriverType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -504,17 +460,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SalesforceLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="340">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SalesforceLoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="290">
+          <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -523,106 +489,110 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/SalesforceHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
+        <state relative-caret-position="-1176">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2511#2512#0" expanded="true" />
-            <element signature="e#2543#2544#0" expanded="true" />
+            <element signature="e#2563#2564#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SalesforceLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="433">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/NewPageLayoutPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NewPageLayoutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" selection-start-line="12" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/NewButtonOrLinkPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#1705#1706#0" expanded="true" />
-            <element signature="e#1754#1755#0" expanded="true" />
-            <element signature="e#1818#1819#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/NewCustomFieldPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/NewCustonFieldTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="266">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NewPageLayoutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/CustomFieldPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NewButtonOrLinkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/JsButtonOrLinkPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/PageLayoutPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DragJsButtonToLayoutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -13,6 +13,15 @@ public class SalesforceHomePage extends Base{
    WebElement element;
     WebDriver driver;
 
+    @FindBy(css = ".switch-to-lightning")
+    private WebElement toLightning;
+
+    @FindBy(css = ".switch-to-aloha")
+    private WebElement toClassicOption;
+
+    @FindBy(css = ".photoContainer")
+    private WebElement profileIcon;
+
     @FindBy(id = "Customize_icon")
     private WebElement customizeIcon;
 
@@ -83,4 +92,27 @@ public class SalesforceHomePage extends Base{
     public void clickOnNewJsButton(){
         clickOnElement(clickNewButtonorLink);
     }
+
+
+    public void switchToLightning() {
+        if (this.toLightning.isDisplayed()) {
+            this.clickOnElement(this.toLightning);
+            System.out.println("It was switched to Lightning");
+        } else {
+            System.out.println("Classic mode by default");
+        }
+
+    }
+
+    public void switchToClassic() {
+        try {
+            this.clickOnElement(this.profileIcon);
+            this.clickOnElement(this.toClassicOption);
+            System.out.println("It was switched to classic");
+        } catch (Exception var2) {
+            System.out.println("Classic mode by default");
+        }
+
+    }
+
 }

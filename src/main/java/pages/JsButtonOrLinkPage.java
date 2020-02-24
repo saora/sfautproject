@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class NewButtonOrLinkPage extends Base {
+public class JsButtonOrLinkPage extends Base {
 
     @FindBy(id = "MasterLabel")
     private WebElement label;
@@ -33,7 +33,7 @@ public class NewButtonOrLinkPage extends Base {
     private WebElement saveJsButton;
 
 
-    public NewButtonOrLinkPage(WebDriver driver){
+    public JsButtonOrLinkPage(WebDriver driver){
         super(driver);
     }
 
