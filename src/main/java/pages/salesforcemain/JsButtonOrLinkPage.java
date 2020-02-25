@@ -1,4 +1,4 @@
-package pages;
+package pages.salesforcemain;
 
 import com.Base;
 import jdk.nashorn.internal.runtime.ECMAException;
