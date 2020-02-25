@@ -22,7 +22,7 @@ public class Base {
 
 
     public void clickOnElement(WebElement element){
-        WebDriverWait wait =  new WebDriverWait(driver,20);
+        WebDriverWait wait =  new WebDriverWait(driver,10);
         wait.until(ExpectedConditions.elementToBeClickable(element)).click();
 
     }
