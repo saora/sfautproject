@@ -1,13 +1,12 @@
+package salesforcemaintest;
+
 import com.DriverFactory;
 import com.DriverType;
-import javafx.scene.layout.Priority;
 import org.junit.*;
 import org.openqa.selenium.WebDriver;
-import pages.JsButtonOrLinkPage;
-import pages.SalesforceHomePage;
-import pages.SalesforceLoginPage;
-
-import java.rmi.Naming;
+import pages.salesforcemain.JsButtonOrLinkPage;
+import pages.salesforcemain.SalesforceHomePage;
+import pages.salesforcemain.SalesforceLoginPage;
 
 public class NewButtonOrLinkTest {
    static WebDriver driver;

@@ -1,14 +1,16 @@
+package salesforcemaintest;
+
 import com.DriverFactory;
 import com.DriverType;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import pages.PageLayoutPage;
-import pages.SalesforceHomePage;
-import pages.SalesforceLoginPage;
+import pages.salesforcemain.PageLayoutPage;
+import pages.salesforcemain.SalesforceHomePage;
+import pages.salesforcemain.SalesforceLoginPage;
 
-public class NewPageLayoutTest {
+public class DragJsButtonToLayoutTest {
     WebDriver driver;
 
     @Before
@@ -36,10 +38,7 @@ public class NewPageLayoutTest {
         shome.selectObjectOption("Campaign","Page Layouts");
 
         PageLayoutPage custLayout = new PageLayoutPage(driver);
-        custLayout.clickOnNewPageLayout();
-        custLayout.typeLayoutName("prueba4");
-        custLayout.saveNewLayout();
-
+        custLayout.editLayout("prueba");
         custLayout.dragAndDropButton("test2");
 
 

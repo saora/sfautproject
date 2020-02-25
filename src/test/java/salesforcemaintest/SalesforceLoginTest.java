@@ -1,10 +1,12 @@
+package salesforcemaintest;
+
 import com.DriverFactory;
 import com.DriverType;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import pages.SalesforceLoginPage;
+import pages.salesforcemain.SalesforceLoginPage;
 
 public class SalesforceLoginTest {
     WebDriver driver;

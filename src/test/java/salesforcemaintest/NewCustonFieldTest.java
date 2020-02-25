@@ -1,12 +1,14 @@
+package salesforcemaintest;
+
 import com.DriverFactory;
 import com.DriverType;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import pages.CustomFieldPage;
-import pages.SalesforceHomePage;
-import pages.SalesforceLoginPage;
+import pages.salesforcemain.CustomFieldPage;
+import pages.salesforcemain.SalesforceHomePage;
+import pages.salesforcemain.SalesforceLoginPage;
 
 public class NewCustonFieldTest {
     WebDriver driver;
