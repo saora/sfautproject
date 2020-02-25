@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.Calendar;
 import java.util.List;
 
 public class JsButtonOrLinkPage extends Base {
@@ -38,7 +39,14 @@ public class JsButtonOrLinkPage extends Base {
     }
 
     public void typeLabel(String texInLabel){
-        typeTextOnElement(label, texInLabel);
+        Calendar cal = Calendar.getInstance();
+        int dayOfMonth = cal.get(Calendar.DAY_OF_MONTH);
+        int monthOfYear=cal.get(Calendar.MONTH);
+
+        String dayOfMonthStr = String.valueOf(dayOfMonth);
+        String monthOfYearStr = String.valueOf(monthOfYear+1);
+
+        typeTextOnElement(label, texInLabel+dayOfMonthStr+monthOfYearStr);
     }
 
     public void typeName(String textInName){
@@ -82,6 +90,7 @@ public class JsButtonOrLinkPage extends Base {
             }catch (Exception e){
                 System.out.println("Alert not present");
             }
+
 
     }
 
