@@ -77,7 +77,12 @@ public class JsButtonOrLinkPage extends Base {
 
     public void saveJavaScriptButton(){
             clickOnElement(saveJsButton);
-            driver.switchTo().alert().accept();
+            try{
+                driver.switchTo().alert().accept();
+            }catch (Exception e){
+                System.out.println("Alert not present");
+            }
+
     }
 
 }
