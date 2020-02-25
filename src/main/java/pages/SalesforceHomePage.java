@@ -49,6 +49,9 @@ public class SalesforceHomePage extends Base{
     @FindBy(xpath = "//*[@id=\"ActionButtonLinkList$ActionsList\"]/div[1]/div/div[1]/table/tbody/tr/td[2]/input[2]")
     private WebElement clickNewButtonorLink;
 
+    @FindBy(id = "setupLink")
+    private WebElement setup;
+
     public SalesforceHomePage(WebDriver driver){
         super(driver);
     }
@@ -91,6 +94,10 @@ public class SalesforceHomePage extends Base{
 
     public void clickOnNewJsButton(){
         clickOnElement(clickNewButtonorLink);
+    }
+
+    public void clickOnSetUp(){
+        clickOnElement(setup);
     }
 
 
