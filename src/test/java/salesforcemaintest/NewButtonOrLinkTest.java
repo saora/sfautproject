@@ -17,8 +17,8 @@ public class NewButtonOrLinkTest {
         driver.get("https://login.salesforce.com/?locale=eu");
 
         SalesforceLoginPage slogin = new SalesforceLoginPage(driver);
-        slogin.typeUsername("glbltest.salesforce@gmail.com");
-        slogin.typePassword("test12345");
+        slogin.typeUsername("leccjsbtnalert.smoketest@de.org");
+        slogin.typePassword("test1234");
         slogin.clickLogin();
         SalesforceHomePage shome = new SalesforceHomePage(driver);
         shome.switchToClassic();
@@ -40,6 +40,7 @@ public class NewButtonOrLinkTest {
     }
 
 /*
+
     @Test()
     public void windowAlertTest(){
         SalesforceHomePage shome = new SalesforceHomePage(driver);
@@ -119,7 +120,7 @@ public class NewButtonOrLinkTest {
     }
 
 
-
+*/
 
     @Test
     public void apexAlert(){
@@ -136,7 +137,7 @@ public class NewButtonOrLinkTest {
         jsbtn.saveJavaScriptButton();
     }
 
-
+/*
     @Test
     public void multipleCallsAlert(){
         SalesforceHomePage shome = new SalesforceHomePage(driver);
@@ -156,8 +157,8 @@ public class NewButtonOrLinkTest {
     @Test
     public void notSupportedObjectAlert(){
         SalesforceHomePage shome = new SalesforceHomePage(driver);
-        shome.selCustomizeOption("Campaigns");
-        shome.selectObjectOption("Campaign","Buttons, Links, and Actions");
+        shome.selCustomizeOption("Products");
+        shome.selectObjectOption("Product","Buttons, Links, and Actions");
         shome.clickOnNewJsButton();
         JsButtonOrLinkPage jsbtn = new JsButtonOrLinkPage(driver);
         jsbtn.typeLabel("notSupportedObj");
@@ -167,8 +168,6 @@ public class NewButtonOrLinkTest {
         jsbtn.typeContentEditor("alert('this is a javascript button insided a not supported object')");
         jsbtn.saveJavaScriptButton();
     }
-
-
 
 
     @Test
@@ -252,7 +251,7 @@ public class NewButtonOrLinkTest {
         jsbtn.typeContentEditor("window.alert('This is a test for Contract object')");
         jsbtn.saveJavaScriptButton();
     }
-    */
+
 
 
     @Test
@@ -266,19 +265,12 @@ public class NewButtonOrLinkTest {
         jsbtn.typeDescription("Js Button created by automated test");
         jsbtn.selectDisplayType("Detail Page Button");
         jsbtn.selectBehavior("Execute JavaScript");
-        jsbtn.typeContentEditor("{!REQUIRESCRIPT('/soap/ajax/13.0/connection.js')}\n" +
-                "var contractToUpdate = new sforce.SObject('Contract');\n" +
-                "contractToUpdate.Id = '{!Contract.Id}';\n" +
-                "contractToUpdate.Description = 'This was updated by JS button';\n" +
-                "var result = sforce.connection.update([contractToUpdate]);\n" +
-                "if(result[0].getBoolean('success')) {\n" +
-                "  alert('Contract Updated Correctly');\n" +
-                "} else {\n" +
-                "  window.alert('Error updating...');\n" +
-                "}");
+        jsbtn.typeContentEditor("{!REQUIRESCRIPT('/soap/ajax/13.0/connection.js')}var contractToUpdate = new sforce.SObject('Contract');contractToUpdate.Id = '{!Contract.Id}';contractToUpdate.Description = 'This was updated by JS button';var result = sforce.connection.update([contractToUpdate]);if(result[0].getBoolean('success')) {alert('Contract Updated Correctly');} else {window.alert('Error updating...');}");
         jsbtn.saveJavaScriptButton();
     }
-/*
+
+
+
     @Test
     public void contracManualMoreDetail(){
         SalesforceHomePage shome = new SalesforceHomePage(driver);
@@ -290,12 +282,38 @@ public class NewButtonOrLinkTest {
         jsbtn.typeDescription("Js Button created by automated test");
         jsbtn.selectDisplayType("Detail Page Button");
         jsbtn.selectBehavior("Execute JavaScript");
-        jsbtn.typeContentEditor("{!REQUIRESCRIPT(\"/apex/dsfs__DocuSign_JavaScript\")}\n" +
-                "DocuSign_CreateEnvelope();");
+        jsbtn.typeContentEditor("{!REQUIRESCRIPT("+"/apex/dsfs__DocuSign_JavaScript"+")}"+"DocuSign_CreateEnvelope();");
         jsbtn.saveJavaScriptButton();
     }
 
-*/
 
+
+    @Test
+    public void openRedirectButton(){
+        SalesforceHomePage shome = new SalesforceHomePage(driver);
+        shome.selCustomizeOption("Contracts");
+        shome.selectObjectOption("Contract","Buttons and Links");
+        shome.clickOnNewJsButton();
+        JsButtonOrLinkPage jsbtn = new JsButtonOrLinkPage(driver);
+        jsbtn.typeLabel("openRedirecJsButton");
+        jsbtn.typeDescription("Js Button created by automated test");
+        jsbtn.selectDisplayType("Detail Page Button");
+        jsbtn.selectBehavior("Execute JavaScript");
+        jsbtn.typeContentEditor("{!REQUIRESCRIPT("+"'/soap/ajax/33.0/connection.js'"+")}"+"\n " +
+                "{!REQUIRESCRIPT("+"'/soap/ajax/33.0/apex.js'"+")}"+"\n" +
+                "var contactObject = sforce.connection.query("+"'SELECT Name, FROM Contact, WHERE Id = '{!Contact.Id}''"+");"+"\n"+
+                "records = contactObject.getArray("+"'records'"+");"+"\n" +
+                "var record = records[0];\n" +
+                "var objLead = new sforce.SObject("+"'Lead'"+");"+"\n" +
+                "objLead.Name = record.Name; //Similarly you can map other values of Lead before inserting it."+"\n" +
+                "var result = sforce.connection.create([objLead]);"+"\n" +
+                "\n" +
+                "if(result[0].success == "+"'true'"+")"+"\n" +
+                "{"+"\n" +
+                "window.open("+"'/objLead.Id'"+");"+"\n" +
+                "}");
+        jsbtn.saveJavaScriptButton();
+    }
+    */
 
 }
