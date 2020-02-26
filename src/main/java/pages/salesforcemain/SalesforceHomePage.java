@@ -81,8 +81,10 @@ public class SalesforceHomePage extends Base{
 
         }*/
 
+
+
         WebElement element1 = objectOption1;
-        List<WebElement> element2 = element1.findElements(By.xpath("//a[contains(@id,'"+objectType+"')]"));
+        List<WebElement> element2 = element1.findElements(By.xpath("//*[@id='"+objectType+"_child']/div/a"));
         System.out.println(element2.size());
         for (WebElement el : element2) {
             if (el.getText().trim().equals(objectOption)) {
