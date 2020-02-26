@@ -52,6 +52,12 @@ public class SalesforceHomePage extends Base{
     @FindBy(id = "setupLink")
     private WebElement setup;
 
+    @FindBy(id = "setupSearch")
+    private WebElement quickFind;
+
+    @FindBy(id = "ApexClasses_font")
+    private WebElement apexClassOpt;
+
     public SalesforceHomePage(WebDriver driver){
         super(driver);
     }
@@ -122,6 +128,14 @@ public class SalesforceHomePage extends Base{
             System.out.println("Classic mode by default");
         }
 
+    }
+
+    public void setQuickFind(String txtToFind){
+        typeTextOnElement(quickFind, txtToFind);
+    }
+
+    public void apexClassOption(){
+        clickOnElement(apexClassOpt);
     }
 
 }
