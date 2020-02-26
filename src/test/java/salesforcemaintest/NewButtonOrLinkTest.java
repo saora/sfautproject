@@ -118,7 +118,7 @@ public class NewButtonOrLinkTest {
         jsbtn.saveJavaScriptButton();
     }
 
- */
+
 
 
     @Test
@@ -128,20 +128,15 @@ public class NewButtonOrLinkTest {
         shome.selectObjectOption("Account","Buttons, Links, and Actions");
         shome.clickOnNewJsButton();
         JsButtonOrLinkPage jsbtn = new JsButtonOrLinkPage(driver);
-        jsbtn.typeLabel("apex");
+        jsbtn.typeLabel("apexAlert");
         jsbtn.typeDescription("Js Button created by automated test");
         jsbtn.selectDisplayType("Detail Page Button");
         jsbtn.selectBehavior("Execute JavaScript");
-        jsbtn.typeContentEditor("{!requireScript(\"/soap/ajax/29.0/connection.js\")}\n" +
-                "{!requireScript(\"/soap/ajax/29.0/apex.js\")}\n" +
-                "\n" +
-                "var acctName = '{!Account.Name}';\n" +
-                "var result = sforce.apex.execute(\"JSBtnCall\",\"showMyAlert\", {name: acctName});\n" +
-                "alert(result);");
+        jsbtn.typeContentEditor("{!requireScript('/soap/ajax/29.0/connection.js')}{!requireScript('/soap/ajax/29.0/apex.js')}var acctName = '{!Account.Name}';var result = sforce.apex.execute('JSBtnCall','showMyAlert', {name: acctName});alert(result);");
         jsbtn.saveJavaScriptButton();
     }
 
-/*
+
     @Test
     public void multipleCallsAlert(){
         SalesforceHomePage shome = new SalesforceHomePage(driver);
@@ -153,24 +148,7 @@ public class NewButtonOrLinkTest {
         jsbtn.typeDescription("Js Button created by automated test");
         jsbtn.selectDisplayType("Detail Page Button");
         jsbtn.selectBehavior("Execute JavaScript");
-        jsbtn.typeContentEditor("{!requireScript(\"/soap/ajax/29.0/connection.js\")}\n" +
-                "{!requireScript(\"/soap/ajax/29.0/apex.js\")}\n" +
-                "\n" +
-                "\n" +
-                "if(\"{!Account.CustomField__c}\" == \"0\"){\n" +
-                "\n" +
-                "var acctId = '{!Account.Id}';\n" +
-                "\n" +
-                "var result = sforce.apex.execute(\"JSBtnCall\",\"showSecondAlert\", {acctId: acctId});\n" +
-                "alert(result);\n" +
-                "\n" +
-                "}\n" +
-                "\n" +
-                "else{\n" +
-                "\n" +
-                "window.alert('This is a test of merge field: {!Account.Name}');\n" +
-                "\n" +
-                "}");
+        jsbtn.typeContentEditor("{!requireScript('/soap/ajax/29.0/connection.js')}{!requireScript('/soap/ajax/29.0/apex.js')}if('{!Account.CustomField__c}' == '0'){var acctId = '{!Account.Id}';var result = sforce.apex.execute('JSBtnCall','showSecondAlert', {acctId: acctId});alert(result);}else{window.alert('This is a test of merge field: {!Account.Name}');}");
         jsbtn.saveJavaScriptButton();
     }
 
@@ -186,9 +164,11 @@ public class NewButtonOrLinkTest {
         jsbtn.typeDescription("Js Button created by automated test");
         jsbtn.selectDisplayType("Detail Page Button");
         jsbtn.selectBehavior("Execute JavaScript");
-        jsbtn.typeContentEditor("alert(\"this is a javascript button insided a not supported object\")");
+        jsbtn.typeContentEditor("alert('this is a javascript button insided a not supported object')");
         jsbtn.saveJavaScriptButton();
     }
+
+
 
 
     @Test
@@ -202,10 +182,12 @@ public class NewButtonOrLinkTest {
         jsbtn.typeDescription("Description test");
         jsbtn.selectDisplayType("Js Button created by automated test");
         jsbtn.selectBehavior("Execute JavaScript");
-        jsbtn.typeContentEditor("{!REQUIRESCRIPT(\"/soap/ajax/27.0/connection.js\")} if({!Contact.Private__c}==\"0\"){ alert(\"Coverage Team can be added only to Private COI\"); } else{ window.parent.location = \"/apex/Modify_Coverage_Team?id={!Contact.Id}\"; window.location = \"/apex/Modify_Coverage_Team?id={!Contact.Id}\";}");
+        jsbtn.typeContentEditor("{!REQUIRESCRIPT('/soap/ajax/27.0/connection.js')} if({!Contact.Private__c}=='0'){ alert('Coverage Team can be added only to Private COI'); } else{ window.parent.location = '/apex/Modify_Coverage_Team?id={!Contact.Id}'; window.location = '/apex/Modify_Coverage_Team?id={!Contact.Id}';}");
         jsbtn.saveJavaScriptButton();
-    }*/
-/*
+    }
+
+
+
     @Test
     public void taskAlert(){
         SalesforceHomePage shome = new SalesforceHomePage(driver);
@@ -220,6 +202,7 @@ public class NewButtonOrLinkTest {
         jsbtn.typeContentEditor("window.alert('Test Id: {!Task.Id}. Status: {!Task.Status}');");
         jsbtn.saveJavaScriptButton();
     }
+
 
     @Test
     public void taskForEmailAlert(){
@@ -236,11 +219,12 @@ public class NewButtonOrLinkTest {
         jsbtn.saveJavaScriptButton();
     }
 
+
     @Test
     public void urlHackAlert(){
         SalesforceHomePage shome = new SalesforceHomePage(driver);
         shome.selCustomizeOption("Activities");
-        shome.selectObjectOption("Activity","Buttons, Links, and Actions");
+        shome.selectObjectOption("Activity","Task Buttons, Links, and Actions");
         shome.clickOnNewJsButton();
         JsButtonOrLinkPage jsbtn = new JsButtonOrLinkPage(driver);
         jsbtn.typeLabel("urlHack");
@@ -251,11 +235,14 @@ public class NewButtonOrLinkTest {
         jsbtn.saveJavaScriptButton();
     }
 
+
+
+
     @Test
     public void contracAlert(){
         SalesforceHomePage shome = new SalesforceHomePage(driver);
         shome.selCustomizeOption("Contracts");
-        shome.selectObjectOption("Contract","Buttons, Links, and Actions");
+        shome.selectObjectOption("Contract","Buttons and Links");
         shome.clickOnNewJsButton();
         JsButtonOrLinkPage jsbtn = new JsButtonOrLinkPage(driver);
         jsbtn.typeLabel("contractAlert");
@@ -265,12 +252,14 @@ public class NewButtonOrLinkTest {
         jsbtn.typeContentEditor("window.alert('This is a test for Contract object')");
         jsbtn.saveJavaScriptButton();
     }
+    */
+
 
     @Test
     public void contracPartialConversion(){
         SalesforceHomePage shome = new SalesforceHomePage(driver);
         shome.selCustomizeOption("Contracts");
-        shome.selectObjectOption("Contract","Buttons, Links, and Actions");
+        shome.selectObjectOption("Contract","Buttons and Links");
         shome.clickOnNewJsButton();
         JsButtonOrLinkPage jsbtn = new JsButtonOrLinkPage(driver);
         jsbtn.typeLabel("contracPartialConversion");
@@ -289,12 +278,12 @@ public class NewButtonOrLinkTest {
                 "}");
         jsbtn.saveJavaScriptButton();
     }
-
+/*
     @Test
     public void contracManualMoreDetail(){
         SalesforceHomePage shome = new SalesforceHomePage(driver);
         shome.selCustomizeOption("Contracts");
-        shome.selectObjectOption("Contract","Buttons, Links, and Actions");
+        shome.selectObjectOption("Contract","Buttons and Links");
         shome.clickOnNewJsButton();
         JsButtonOrLinkPage jsbtn = new JsButtonOrLinkPage(driver);
         jsbtn.typeLabel("contracManualMoreDetail");
