@@ -33,13 +33,13 @@ public class NewButtonOrLinkTest {
 
     @AfterClass
     public static void tearDown()throws Exception{
-/*        if (driver != null) {
-            Thread.sleep(6000);
+        if (driver != null) {
+            Thread.sleep(4000);
             driver.quit();
-        }*/
+        }
     }
 
-/*
+
 
     @Test()
     public void windowAlertTest(){
@@ -120,7 +120,7 @@ public class NewButtonOrLinkTest {
     }
 
 
-*/
+
 
     @Test
     public void apexAlert(){
@@ -137,7 +137,6 @@ public class NewButtonOrLinkTest {
         jsbtn.saveJavaScriptButton();
     }
 
-/*
     @Test
     public void multipleCallsAlert(){
         SalesforceHomePage shome = new SalesforceHomePage(driver);
@@ -287,12 +286,11 @@ public class NewButtonOrLinkTest {
     }
 
 
-
     @Test
     public void openRedirectButton(){
         SalesforceHomePage shome = new SalesforceHomePage(driver);
-        shome.selCustomizeOption("Contracts");
-        shome.selectObjectOption("Contract","Buttons and Links");
+        shome.selCustomizeOption("Contacts");
+        shome.selectObjectOption("Contact","Buttons, Links, and Actions");
         shome.clickOnNewJsButton();
         JsButtonOrLinkPage jsbtn = new JsButtonOrLinkPage(driver);
         jsbtn.typeLabel("openRedirecJsButton");
@@ -314,6 +312,6 @@ public class NewButtonOrLinkTest {
                 "}");
         jsbtn.saveJavaScriptButton();
     }
-    */
+
 
 }
