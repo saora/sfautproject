@@ -9,6 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 import javax.swing.*;
+import java.util.Calendar;
 import java.util.List;
 
 public class PageLayoutPage extends Base {
@@ -69,17 +70,30 @@ private WebElement selectLayout;
     }
 
     public void dragAndDropButton(String buttonName)throws Exception{
+        Calendar cal = Calendar.getInstance();
+        int dayOfMonth = cal.get(Calendar.DAY_OF_MONTH);
+        int monthOfYear=cal.get(Calendar.MONTH);
+        String dayOfMonthStr = String.valueOf(dayOfMonth);
+        String monthOfYearStr = String.valueOf(monthOfYear+1);
+
         clickOnElement(buttonOptFromDropDown);
 
-        System.out.println("Js Button Name: "+customJsButtonName.getText());
-        typeTextOnElement(findJsButton, buttonName);
+        if(customJsButtonName.getText().equals(buttonName+dayOfMonthStr+monthOfYearStr)){
+            System.out.println("Js Button Name: "+customJsButtonName.getText());
+        }else
+        {
+            System.out.println("Buttons not found!!!");
+        }
+
+
+        typeTextOnElement(findJsButton, buttonName+dayOfMonthStr+monthOfYearStr);
 
         Actions dragdrop = new Actions(driver);
 
        // dragdrop.clickAndHold(customJsButtonName).build().perform();
        // dragdrop.moveToElement(toElement).build().perform();
         ((JavascriptExecutor) driver).executeScript("window.scrollBy(2000,0)");
-        Thread.sleep(6000);
+        Thread.sleep(3000);
        // dragdrop.clickAndHold(customJsButtonName).build().perform();
         dragdrop.dragAndDrop(customJsButtonName, toElement).build().perform();
         Thread.sleep(3000);
